@@ -60,7 +60,7 @@ sudo apt-get install openjdk-8-jdk
 ```console
 sudo apt-get install scala
 ```
-<img width="1301" alt="Ekran Resmi 2022-02-27 20 57 35" src="https://user-images.githubusercontent.com/91700155/155900866-3809dda3-6498-40fc-8dee-cabdc94af1d0.png">
+<img width="1258" alt="Ekran Resmi 2022-02-27 20 57 35" src="https://user-images.githubusercontent.com/91700155/155901617-c3d3a2f2-e5d6-43e8-8a3d-f2c995329eb5.png">
 
 ### 15- SSH Connection
 ```console
@@ -79,7 +79,7 @@ wget https://archive.apache.org/dist/spark/spark-3.0.1/spark-3.0.1-bin-hadoop2.7
 ```console
 tar xvf spark-*
 ```
-<img width="1298" alt="Ekran Resmi 2022-02-27 20 59 44" src="https://user-images.githubusercontent.com/91700155/155900885-ec0de73b-cb5b-409c-8dd8-b5b7904c91a7.png">
+<img width="1293" alt="Ekran Resmi 2022-02-27 20 59 44" src="https://user-images.githubusercontent.com/91700155/155901651-5c0a0a6b-7895-4793-9ae6-e1c117f163c6.png">
 
 #### Move the unpacked directory spark-3.0.1-bin-hadoop2.7 to the opt/spark directory
 ```console
@@ -93,8 +93,8 @@ echo "export SPARK_HOME=/opt/spark" >> ~/.profile
 echo "export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin" >> ~/.profile
 echo "export PYSPARK_PYTHON=/usr/bin/python3" >> ~/.profile
 ```
-<img width="1287" alt="zHayN" src="https://user-images.githubusercontent.com/91700155/155900934-626a4453-89dc-46f0-844c-32ed90969e9f.png">
-
+<img width="1309" alt="Ekran Resmi 2022-02-27 21 02 27" src="https://user-images.githubusercontent.com/91700155/155901678-1d9e097c-3f77-4529-9f61-2eb56f1a01cb.png">                
+                                   
 #### Open .profile file
 ```console
 nano .profile
