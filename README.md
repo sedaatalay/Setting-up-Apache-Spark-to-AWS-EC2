@@ -92,7 +92,6 @@ sudo mv spark-3.0.1-bin-hadoop2.7 /opt/spark
 echo "export SPARK_HOME=/opt/spark" >> ~/.profile
 echo "export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin" >> ~/.profile
 echo "export PYSPARK_PYTHON=/usr/bin/python3" >> ~/.profile
-$
 ```
 <img width="1287" alt="zHayN" src="https://user-images.githubusercontent.com/91700155/155900934-626a4453-89dc-46f0-844c-32ed90969e9f.png">
 
@@ -105,7 +104,6 @@ nano .profile
 echo "export SPARK_HOME=/opt/spark" >> ~/.profile
 echo "export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin" >> ~/.profile
 echo "export PYSPARK_PYTHON=/usr/bin/python3" >> ~/.profile
-$
 ```
 <img width="1294" alt="Ekran Resmi 2022-02-27 21 01 35" src="https://user-images.githubusercontent.com/91700155/155900944-b69f9037-3fb0-4f7e-b5a3-095676c66dc7.png">
 
