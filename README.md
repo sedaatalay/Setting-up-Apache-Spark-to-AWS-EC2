@@ -130,21 +130,20 @@ http://<yourpublicdns>:8080/
 start-slave.sh spark://master:port
 E.g.--> start-slave.sh spark://ec2-3-121-127-213.eu-central-1.compute.amazonaws.com:7077
 ```
-<img width="1422" alt="mQ8Cj" src="https://user-images.githubusercontent.com/91700155/155901088-34bbaf72-d843-4294-9012-4e984aacdcc4.png">
+<img width="1422" alt="Ekran Resmi 2022-02-27 21 07 02" src="https://user-images.githubusercontent.com/91700155/155901457-03712ef7-4dff-4b02-9cfc-d6564ea83432.png">
 
 ### 20- Specify Resource Allocation for Workers
 ```console
 start-slave.sh -c 1 spark://master:port
 ```
 ###### Reload Spark Master’s Web UI to confirm the worker’s configuration
-<img width="1426" alt="MeNeQ" src="https://user-images.githubusercontent.com/91700155/155901144-deb974dc-2f30-456b-874e-f1783ffec99c.png">
-
+<img width="1426" alt="Ekran Resmi 2022-02-27 21 07 54" src="https://user-images.githubusercontent.com/91700155/155901471-085734a9-df2a-401e-99e5-6c5491a8c2d6.png">
 
 ###### For example, to start a worker with 512MB of memory, enter this command:
 ```console
 start-slave.sh -m 512M spark://master:port
 ```
-<img width="1421" alt="9L3UN" src="https://user-images.githubusercontent.com/91700155/155901170-cd3e64a8-320a-4e19-9303-4f058938078e.png">
+<img width="1421" alt="Ekran Resmi 2022-02-27 21 08 48" src="https://user-images.githubusercontent.com/91700155/155901483-41d629c0-24d2-42b3-af04-b9dd4bd6ffdf.png">
 
 ### 21- Test Spark Shell
 ```console
@@ -168,7 +167,7 @@ start-slave.sh
 ```console
 start-all.sh
 ```
-<img width="1292" alt="O033y" src="https://user-images.githubusercontent.com/91700155/155901256-e15eab2e-78b9-4535-98a0-25f68f983f9e.png">
+<img width="1285" alt="Ekran Resmi 2022-02-27 21 09 11" src="https://user-images.githubusercontent.com/91700155/155901499-2dbafc2c-cda3-4c16-8709-b2367bf69185.png">
 
 ### 24- Before logout, make sure to stop Spark services and AWS Instance
 ```console
@@ -179,7 +178,7 @@ stop-slave.sh
 ```console
 stop-all.sh
 ```
-<img width="1292" alt="Ekran Resmi 2022-02-27 21 12 30" src="https://user-images.githubusercontent.com/91700155/155901203-2e68660b-ef4d-462f-8836-a3a5d5f84156.png">
+<img width="1254" alt="Ekran Resmi 2022-02-27 21 12 30" src="https://user-images.githubusercontent.com/91700155/155901531-284faa95-a456-4e2f-b401-f46d4894e1ab.png">
 
 
 
