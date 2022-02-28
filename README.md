@@ -128,7 +128,7 @@ http://<yourpublicdns>:8080/
 ### 19- Start Spark Slave Server (Start a Worker Process)
 ```console
 start-slave.sh spark://master:port
-E.g.--> start-slave.sh spark://ec2-3-121-127-213.eu-central-1.compute.amazonaws.com:7077
+E.g.> start-slave.sh spark://ec2-3-121-127-213.eu-central-1.compute.amazonaws.com:7077
 ```
 <img width="1422" alt="Ekran Resmi 2022-02-27 21 07 02" src="https://user-images.githubusercontent.com/91700155/155901457-03712ef7-4dff-4b02-9cfc-d6564ea83432.png">
 
@@ -174,7 +174,7 @@ start-all.sh
 stop-master.sh
 stop-slave.sh
 ```
-###### Start both master and server
+###### Stop both master and server
 ```console
 stop-all.sh
 ```
